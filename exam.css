@@ -1,0 +1,806 @@
+*
+{
+padding: 0%;
+margin: 0%;
+list-style: none;
+font-family: 'Lobster', cursive;
+}
+.barre 
+{
+width: 100%;
+position: fixed;
+background-color:white;
+padding: 15px 0px;
+}
+
+.barre .head 
+{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-content: auto;
+}
+.menu li
+{
+    display: inline-block;
+}
+.head li a
+{
+    color:black;
+    font-size: 30px;
+    font-weight: 250px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.logo a
+{
+    color:black;
+    font-size: 45px;
+    font-weight: 550px;
+    text-decoration: none;
+}
+
+.logo span
+{
+    color:red;
+    text-decoration: none;
+} 
+.nav >ul
+{
+    margin: 0%;
+    padding: 0%;
+}
+.nav >ul >li
+{
+    float: left;
+    position: relative;
+}
+.nav li
+{
+list-style-type: none;
+}
+.sousmenu
+{
+    display: none;
+    position: absolute;
+}
+.menu li:hover .sousmenu
+{
+    display:block;
+} 
+.nav .menu li:hover .sousmenu
+{
+    display: block;
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left:0px;
+    padding: 0%;
+    z-index: 1000;
+}
+.sousmenu .li
+{
+    width: 100%;
+    text-align: center;
+    background-color:darkblue;
+    border: 2px silod white;
+}
+.sousmenu .li .a
+{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: royalblue;
+    width: 250px;
+}
+.nav .li .a:hover
+{
+    background: black;
+    color: white;
+}
+/***********************************************************************************/
+.home
+{
+    height: 800px;
+    background: url(../velito-kjyO8EMGAxg-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+
+    -webkit-animation-name:diapo;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+
+    animation-name: diapo;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+}
+
+@-webkit-keyframes diapo
+{
+    0%{background-image: url(../talia-BHlpqQMWDSc-unsplash.jpg);}
+    33%{background-image: url(../erik-mclean-BiE1VclsAbA-unsplash.jpg);}
+    66%{background-image: url(../kahl-orr-E36kvVnjOBk-unsplash.jpg):}
+}
+.home .head
+{
+color: white;
+margin: auto 50px;
+padding: 150px 150px 150px 150px ;
+}
+
+.home .corps .text1
+{
+    font-size:80px;
+    font-weight:1000px;
+    text-align: center;
+}
+.home .corps .text1 span
+{
+    color:red;
+}
+.home .corps .premier-button
+{
+    display: inline-block;
+    background-attachment:white;
+    font-size: 40px;
+    font-weight: 200px;
+    color:black;
+    border: 2px solid red;
+    border-radius: 20px;;
+    padding: 10px 40px;
+    margin-top:50px;
+    margin-left: 410px;
+}
+
+.home .corps .premier-button
+{
+    background:white;
+}
+.home .corps .premier-button:hover
+{
+    background: none;
+    color: white;
+}
+/***************************************************************************/
+.ventes1
+{
+    padding: 50px 150px;
+}
+.ventes1 .contenu-ventes1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ventes1 .div-leftdiv
+{
+    width: 55%;
+}
+
+.ventes1 .right
+{
+    width: 45%;
+}
+
+.ventes1 .div-left img
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 6px;
+}
+.ventes1 .right .text
+{
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ventes1 .right p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.ventes1 .div-left .ford
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Mercedes
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Jeep
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Hyundai
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Toyota
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .nissan
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Ferrari
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Renault
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .Peaugeot
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.ventes1 .div-left .bmw
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+.desc
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+/*****************************************************/
+.locations
+{
+    padding-top: 80px;
+}
+.locations .contenu-locations
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../noir.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+.locations .contenu-locations .intro
+{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    padding: 50px 50px;
+}
+/***************************************************/
+.barre1
+{
+    background-color:red;
+    padding: 15px 0px;
+}
+ .barre1 .pied-page p
+ {
+     text-align: center;
+     color: white;
+ }
+ .barre1 .pied-page p span
+ {
+     color:black;
+    
+ }
+/***************************/
+ .auto
+{
+    color: white;
+}
+.securise
+{
+    color: white;
+}
+.reservation
+{
+    color: white;
+}
+.money
+{
+    color: white;
+}
+/************************/
+.location1 .tittle
+{
+    padding-top: 55px;
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center;
+    text-decoration:underline crimson;
+    padding-bottom: 80px;
+}
+.location1 .contenu-location1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location1 .div-leftdiv
+{
+    width: 45%;
+}
+
+.location1 .right
+{
+    width: 55%;
+}
+
+.location1 .right img
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 6px;
+    object-fit:contain;
+    padding-left: 200px;
+}
+.location1 .div-left .text
+{
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+}
+.location1 .div-left p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.location1 .louer
+{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 100px;
+    color:red;
+    padding-bottom:  50px;
+}
+/***************/
+.home1
+{
+    height: 800px;
+    background: url(../lavage4.jpeg) no-repeat center;
+    background-size: cover;
+    display: flex;
+}
+.home1 .head
+{
+color: crimson;
+margin: auto 50px;
+padding: 150px 150px 150px 150px ;
+}
+.home1 .corps1 .text2
+{
+    font-size:80px;
+    font-weight:1000px;
+    text-align: center;
+}
+.lavage .contenu-lavage .text
+{
+    text-align: center;
+    padding-top: 50px;
+    color:blackO;
+    padding: 50px 50px;
+}
+.exemple .image
+{
+    padding:50px 50px 50px 50px;
+    text-align: center;
+    width: 1200px;
+    height: 800px;
+}
+.rendez-vous
+{
+    display: inline-block;
+    background-attachment:white;
+    font-size: 40px;
+    font-weight: 200px;
+    color:black;
+    border: 2px solid red;
+    border-radius: 20px;;
+    margin-top:50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.rendez-vous
+{
+    background:floralwhite;
+}
+.rendez-vous:hover
+{
+    background: none;
+    color: gold;
+}
+/**********/
+.home2
+{
+    height: 800px;
+    background: url(../entretien6.jpeg) no-repeat center;
+    background-size: cover;
+    display: flex;
+}
+.home2 .head
+{
+color:red;
+margin: auto 50px;
+padding: 150px 150px 150px 150px ;
+}
+.home2 .corps2 .text3
+{
+    font-size:80px;
+    font-weight:1000px;
+    text-align: center;
+}
+/****************/
+.formul
+{
+    padding: 72px 0px;
+}
+.formul:before
+{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../bugati.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+    filter: blur(3px);
+}
+.formulaire
+{
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform:translate(-50%,-50%) ;
+-moz-transform:translate(-50%,-50%) ;
+-ms-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+width: 400px;
+height: 500px;
+padding: 40px 50px;
+background: rgba(0,0,0,0.6);
+}
+.avatar
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: calc(50% - 40px);
+}
+.formulaire h2
+{
+    margin: 0;
+    padding: 0 0 20px ;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.formulaire p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+.formulaire input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formulaire input[type=text],
+.formulaire input[type=email],
+.formulaire input[type=tel]
+{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.formulaire input[type=submit]
+{
+    height: 30px;
+    color: #ffffff;
+    font-size: 15px;
+    background: red;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 15px
+}
+input[type=radio]
+{
+    width: 20px;
+    color: #ffffff;
+}
+/**************/
+.interieur
+{
+    padding: 50px;
+    padding-top: 80px;
+}
+.interieur h1
+{
+    text-align: center;
+    color: red;
+    margin: 0px 0 50px;
+
+}
+.interieur  .gallerie
+{
+    margin: 10px 50px;
+}
+.interieur .gallerie img
+{;
+    width: 290px;
+    padding: 5px;    
+    filter: grayscale(10%);
+    transition: 1s;
+}
+.gallerie img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.demande
+{
+    display: inline-block;
+    background-attachment:white;
+    font-size: 40px;
+    font-weight: 200px;
+    color:black;
+    border: 2px solid red;
+    border-radius: 20px;;
+    margin-top:50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.demande
+{
+    background:white;
+}
+.demande:hover
+{
+    background: none;
+    color:red;
+}
+}/***************/
+.presentation
+{
+    padding: 50px 150px;
+}
+.presentation .tittle
+{
+    padding-top: 55px;
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center;
+    text-decoration:underline crimson;
+    padding-bottom: 80px;
+}
+.corps1 h3
+{
+    text-align: center;
+    font-size: 30px;
+}
+.logos img
+{
+    padding: 85px;
+    height: 80px;
+    width: 100px;
+}
+/************/
+.propos
+{
+    padding: 50px 150px;
+    height: 800px;
+}
+.propos .tittle
+{
+    padding-top: 55px;
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    text-decoration:underline crimson;
+    padding-bottom: 80px;
+}
+.propos .contenu-propos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .propos .contenu-propos .droite1
+ {
+     width: 33%;
+     height: 500px;
+ }
+ .propos .contenu-propos .milieu1
+ {
+     width: 33%;
+     height: 500px;
+ }
+
+ .propos .contenu-propos .gauche1
+ {
+     width: 33%;
+     height: 500px;
+ }
+ .propos .droite1 img
+ {
+     height:150px;
+     width: 150px;
+     text-align: center;
+
+ }
+ .propos .milieu1 img
+ {
+     align-content: center;
+    height: 150px;
+     width: 150px;
+     text-align: center;
+
+ }
+ .propos .gauche1 img
+ {
+     height: 150px;
+     width: 150px;
+     text-align: center;
+     margin: auto;
+
+ }
+ .propos .image1
+ {
+     text-align: center;
+ }
+ .propos .image2
+ {
+    text-align: center;
+}
+ .propos .image3
+ {
+    text-align: center;
+}
+ .rounded
+ {
+     border-radius: 50%;
+     padding: 1px;
+     border: 4px solid transparent;
+     background: linear-gradient(60deg,RED 10%,yellow 100%);
+     text-align: center;
+
+ }
+ .propos .contenu-propos .droite1 
+ {
+    background-color:rgb(33, 46, 46);
+    
+ }
+ .propos .contenu-propos .milieu1
+ {
+    background-color:rgb(33, 46, 46);
+ }
+ .propos .contenu-propos .gauche1
+ {
+    background-color:rgb(33, 46, 46);
+ }
+ .propos .contenu-propos .gauche1 .text3
+ {
+     color: floralwhite;
+     text-align: center;
+ }
+ .propos .contenu-propos .milieu1 .text2
+ {
+     color: floralwhite;
+     text-align: center;
+ }
+ .propos .contenu-propos .droite1 .text1
+ {
+     color: floralwhite;
+     text-align: center;
+ }
+/********************************************/
+.informations
+{
+    padding: 50px 150px;
+    height: 560px;
+}
+.informations .contenu-informations
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.informations .left
+{
+    width: 50%;
+}
+
+.informations .right
+{
+    width: 20%;
+}
+.informations .center
+{
+    width: 20%;
+}
+.form-demo
+{
+
+}
+.form-demo input
+{
+    display: block;
+}
+.input1
+{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
+.envoyer
+{   
+    display: inline-block;
+    background:red;
+    font-size: 15px;
+    color: beige;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top:20px;
+}
+.envoyer:hover
+{
+    background: white;
+    color: black;
+}
